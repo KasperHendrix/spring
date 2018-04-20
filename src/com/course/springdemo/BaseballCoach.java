@@ -1,8 +1,11 @@
 package com.course.springdemo;
 
-public class BaseballCoach {
-	public String getDailyWorkOut() {
-		return "Spend 30 minutes on battin practice";
+public class BaseballCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Allenati porco";
 	}
 
 }
