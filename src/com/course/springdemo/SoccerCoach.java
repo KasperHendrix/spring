@@ -4,7 +4,7 @@ public class SoccerCoach implements Coach{
 
 	@Override
 	public String getDailyWorkout() {
-		return "Soccer Training";
+		return "Do Soccer Training";
 	}
 
 	@Override
